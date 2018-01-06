@@ -19,7 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="graphics.cpp" />
+    <ClCompile Include="input.cpp" />
     <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h" />
+    <ClInclude Include="graphics.h" />
+    <ClInclude Include="input.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{0EFC95AF-034E-4C0B-8B6D-1F4C1E64BE4B}</ProjectGuid>
